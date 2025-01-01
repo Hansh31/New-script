@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MOVIES=("pushpa" "rrr" "devara")
+MOVIES=("$0" "$1" "$2")
 # index starts from zero , size is 3 
 
 echo "First movie: ${MOVIES[0]}"
