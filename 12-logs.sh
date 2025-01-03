@@ -33,13 +33,6 @@ if [ $? -ne 0 ]
 then # not installed
     dnf install mysql -y &>>$LOG_FILE_NAME
     VALIDATE $? "Installing MySql"
-    if [ $? -ne 0 ]
-    then
-        echo "Installing MySQL ... FAILURE"
-        exit 1
-    else
-        echo "Installing MySQL ... SUCCESS"
-    fi
 else
     echo -e "MySQL is already ...$Y INSTALLED"
 fi
