@@ -5,7 +5,7 @@
 # echo 3
 # echo 4
 # echo 5
-for i in {0..5}
+for i in {0..50}
 do 
    echo $i
 done
